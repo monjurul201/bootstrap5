@@ -107,11 +107,13 @@ padding: 0px 15px !important;
     text-align: center;
 }
 .extra-section-div{
+   
     background: #fff;
     border: medium none;
-    padding: 50px !important;
+    padding: 20px !important;
     border-radius: 3px;
     transition: 0.3s;
+    
 }
 
 
@@ -159,7 +161,9 @@ padding: 0px 15px !important;
 
 /* <!-- ************project done section css start*********** --> */
 .project-done{
-margin: 100px 0;
+
+    height: 200px;
+    margin: 100px 0;
 }
 
 .project-done h1{

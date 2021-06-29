@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <!-- **********aos********* -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -66,18 +70,18 @@
     <div class="service-section">
         <div class="container">
             <div class="row">
-                <div class="extra-section-div col-lg-4 col-md-4 col-12">
+                <div data-aos="fade-right" data-aos-duration="2000" class="extra-section-div col-lg-4 col-md-4 col-12">
                     <a href=""><i class="fas fa-3x fa-desktop"></i></a>
                     <h1>Easy to Use</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptas quas saepe recusandae
                         praesentium distinctio!</p>
                 </div>
-                <div class=" extra-section-div col-lg-4 col-md-4 col-12">
+                <div data-aos="fade-down" data-aos-duration="2000"  class=" extra-section-div col-lg-4 col-md-4 col-12">
                     <a href=""><i class="fas fa-3x fa-trophy"></i></a>
                     <h1>Awesome Design</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium soluta sapiente.</p>
                 </div>
-                <div class=" extra-section-div col-lg-4 col-md-4 col-12">
+                <div data-aos="fade-left" data-aos-duration="2000" class=" extra-section-div col-lg-4 col-md-4 col-12">
                     <a href=""><i class="fas fa-3x fa-magic"></i></a>
                     <h1>Easy To Customize</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex autem accusamus amet et nulla!</p>
@@ -97,7 +101,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+                <div data-aos-duration="1500" data-aos="fade-right" class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
                     <div class="names my-3">
                         <h1>HTML</h1>
                         <div class="progress w-75">
@@ -143,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-10 servicediv ps-md-3">
+                <div data-aos-duration="1500" data-aos="fade-left" class="col-lg-6 col-md-12 col-10 servicediv ps-md-3">
                     <div class="row">
                         <div class="col-lg-2 col-2 service-icon"><i class="fas fa-3x fa-desktop"></i></div>
                         <div class="col-lg-10 col-10">
@@ -175,12 +179,12 @@
 
     <!-- ***************project done start************* -->
 
-    <section class="project-done">
+    <section class="project-done" >
         <div class="container headings text-center">
             <p class="text-center fw-bold text-uppercase">more than 1,500 website created</p>
         </div>
 
-        <div class="container d-flex justify-content-around align-items-center text-center">
+        <div data-aos="zoom-in" data-aos-duration="2500" class="container d-flex justify-content-around align-items-center text-center pt-5">
             <div>
                 <h1 class='count'>1500</h1>
                 <p>CMS Instalation</p>
@@ -209,7 +213,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4  col-md-4  col-12 gy-4 ">
+                <div  data-aos="fade-up-right" data-aos-duration="2500" class="col-lg-4  col-md-4  col-12 gy-4 ">
                     <div class="card text-center gy-4">
                         <div class="card-header bg-transparent  text-uppercase">Basic</div>
                         <div class="card-body">
@@ -222,7 +226,7 @@
                         <div class="card-footer bg-transparent "><a href="">Purchase</a></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4  col-12 gy-4">
+                <div data-aos="fade-up" data-aos-duration="2500" class="col-lg-4 col-md-4  col-12 gy-4">
                     <div class="card text-center second-card">
                         <div class="card-header bg-transparent  text-uppercase">standard</div>
                         <div class="card-body">
@@ -235,7 +239,7 @@
                         <div class="card-footer bg-transparent "><a href="">Purchase</a></div>
                     </div>
                 </div>
-                <div class="col-lg-4  col-md-4 col-12 gy-4">
+                <div data-aos="fade-down-left" data-aos-duration="2500" class="col-lg-4  col-md-4 col-12 gy-4">
                     <div class="card text-center">
                         <div class="card-header bg-transparent text-uppercase">unlimited</div>
                         <div class="card-body">
@@ -404,7 +408,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-md-8 col-12 offset-lg-2 offset-md-2 ">
+                    <div data-aos="flip-up" data-aos-duration="3000" class="col-lg-8 col-md-8 col-12 offset-lg-2 offset-md-2 ">
                         <form>
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="username" placeholder="User Name"
@@ -543,6 +547,12 @@
             document.documentElement.scrollTop=0;
         }
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  <script src="particles.js"></script>  
+  <script src="app.js"></script>  
 
 </body>
 </html>
